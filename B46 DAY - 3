@@ -1,0 +1,107 @@
+For the given JSON iterate over all for loops(for,forin,forof,foreach).
+ANS: 
+   FOR LOOP:
+   
+   
+   The for loops comes first because of its simplicity and ease of use.
+   It is a very user-friendly kind of loop that runs with a method of using counter.
+   The value is first set with an appropriate condition, which is also called as an "initializing a loop".
+   The terminal or the final value is specified.
+   The for loop makes things really easy when you need to run a set of codes multiple times.
+   
+   The for loop is further divided into two types as,
+   
+        1. Using an array.
+        2.Making a loop through DOM elements.
+        
+        FOR IN LOOP:
+        
+        
+             Another way of looping is the FORIN loop.
+             Unlike the for loop,this loop wont be a loosing counter.
+             The FORIN loop makes the whole process even more simple and hassle- free.
+             In fact, the FORIN loop is especially a simplied version of the for loop.
+             
+             LOOP USING THE FORIN TECHNIQUE:
+             
+                 1.Looping through an object property.
+                 2.Looping through an JSON.
+                 
+                 
+           FOR EACH LOOP:
+           
+                This method is used for looping through an array element.
+              
+              example:
+               
+                   {%code-block language="js"%}
+                   var names = {"jerry","tom","pluto","micky","mini"};
+                   names.foreach(function1);
+                   functionfunction1(currentvalue,index){
+                   console.log("Index in array is:"+index+" :: value is :"+current value");
+                   }
+                   {%code-block-end%}
+                   
+                   
+           FOR OF LOOP:
+               
+                The FOR OF executes a loop that operates on a sequence of value sourced from an iterable objects.
+                Iterable objects includes instances of built- ins such as Arry,String , Typedarray,map,set,nodelist(and other DOM collections).
+                And the argument objects , genertors produced by generator function are user defined iterables.
+                 
+                  
+              SYNTAX:
+                   for(variable of iterable)
+                   statement.
+           
+           
+         2 Difference between Window, screen and document in javascript.
+           
+            WINDOW:
+               
+               The javascript window object sits at the top of the javascript object hierarchy and represents the browser window.
+               The window object is supported by all browsers.
+               All global JAVASCRIPT OBJECTS ,functions and variables automatically become members of the window object.
+               The window is the first thing that gets loaded into the browser.
+               The window object has the majority of the properties like length, inner width, inner height, name if it has been closed ,its parents and more.
+               The window objects represents the current browsing content.
+               It holds things like window.location,window.screen,window.status,or the WINDOW.DOCUMENT.
+               Each browser tab has its own top level window object.
+               each of this windows gets its own separate global object.
+               window.window always refers to windows, but window.parent and window.top might refer to enclosing windows, giving access to their execution contents.
+               Moreover, the window propert of a window object points to the window object itself.
+               
+               
+          DOCUMENT:
+          
+             The document interface represents any web page loaded in the browser and serves as an entry point into the web page content,which is in the DOM tree.
+             When an HTML document is loaded into a web browser,it becomes a document object.
+             It is the root node of the HTML document.
+             The document actually gets loaded inside the window object and has properties available to it like title, URL, cookie,etc.
+             HTML documents are served with an "text/html" concepts types.
+             And also implements the HTML document interface , whereas XML and SVG documents implement the XML document interface.
+             
+             
+           SCREEN: 
+           
+                Screen is a small information object about physical screen dimension.
+                It can be used to display screen width,height,colourdepth,pixeldepth etc.
+                It is not mandatory to write window prefix with screen object.
+                It can be written without window prefix.
+                
+                
+           PROPERTIES OF SCREEN :
+           
+                  screen.width
+                  screen.height
+                  screen.availwidth
+                  scrren.availheight
+                  screen.colordepth
+                  screen.pixeldepth.
+           
+           
+        
+        
+        
+
+
